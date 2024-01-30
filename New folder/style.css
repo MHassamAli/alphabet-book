@@ -1,0 +1,132 @@
+/* *{
+     margin: 0px;
+     padding: ;
+     box-sizing: border-box;
+    color: #f2f2f2;
+     font-family: sans-serif; 
+} */
+nav{
+    background-color:black;
+    padding:10px 40px 10px 70px;
+    border: 1px solid #000;
+    border-left: none;
+    border-right: none;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    left: 0;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li.logo{
+    flex: 1;
+    font-size: 30px;
+    font-weight: 700;
+}
+nav ul div.items{
+    padding: 0px 25px;
+    display: inline-flex;
+}
+nav ul div.items a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0px 13px;
+    color: white;
+}
+nav ul div.items a:hover{
+    background-color: cyan;
+}
+nav ul .search-icon{
+    height: 40px;
+    width: 240px;
+    background-attachment: #f2f2f2;
+    border-radius: 5px;
+    display: flex;
+}
+nav ul .search-icon input{
+    height: 100%;
+    width: 200px;
+    border: none;
+    outline: none;
+    padding: opx 10px;
+    font-size: 16px;
+    border-radius: 5px 0px 0px 5px;
+}
+nav ul .search-icon .icon{
+    height: 100%;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #000;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid #cccccc;
+}
+nav ul .search-icon .icon:hover{
+    background-color: white;
+}
+nav ul .search-icon .icon span{
+    color:white;
+    font-size: 18px;
+}
+div.sider{
+background-color:black;
+width: 20%;
+height: 100%;
+margin-top: 100px;
+position: fixed;
+top: 0;
+left: 0;
+overflow-x: hidden;
+bottom: 0;
+}
+div.sider a{
+    display: block;
+    text-decoration: none;
+    font-size: 26px;
+    padding: 10px 15px 10px 16px;
+    color: #f2f2f2;
+    font-weight: 700;
+}
+div.sider a:hover{background-color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+color: #000;
+}
+.content div{
+width:78% ;
+margin-top: 100px;
+margin-left: 350px;
+
+}
+.content div .alpha{
+width: 300px;
+background-color: red;
+height: 350px;
+font-size: 35px;
+font-weight: 700;
+display: inline-block;
+color: black;
+text-align: center;
+top: 0;
+border: 5px solid black;
+
+}
+
+.content div .img{
+    width: 45%;
+    display: inline-block;
+    height: 400px;
+    float: right;
+    margin-right: 250px;
+}
+.content div .img img{
+    height: 350px;
+    width: 300px;
+}
